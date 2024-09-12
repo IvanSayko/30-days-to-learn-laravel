@@ -15,6 +15,8 @@ Route::get('test', function () {
     return 'Done';
 });
 
+Route::view('/adminlte', 'adminlte');
+
 Route::view('/', 'home');
 Route::view('/contact', 'contact');
 
